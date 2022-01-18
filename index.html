@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>
+        Press the buttons or click the below keys to play sounds
+    </p>
+    <div class="keys">
+        <button id="btnA">A</button>
+        <!-- Create an audio element and hide it with css: display:none -->
+        <audio id="audioA" controls style="display:none" src="/sounds/sounds_do.wav"></audio>
+        <button id="btnS">S</button>
+        <audio id="audioS" controls style="display:none" src="/sounds/sounds_re.wav"></audio>
+        <button id="btnD">D</button>
+        <audio id="audioD" controls style="display:none" src="/sounds/sounds_mi.wav"></audio>
+        <button id="btnF">F</button>
+        <audio id="audioF" controls style="display:none" src="/sounds/sounds_fa.wav"></audio>
+        <button id="btnJ">J</button>
+        <audio id="audioJ" controls style="display:none" src="/sounds/sounds_so.wav"></audio>
+        <button id="btnK">K</button>
+        <audio id="audioK" controls style="display:none" src="/sounds/sounds_la.wav"></audio>
+        <button id="btnL">L</button>
+        <audio id="audioL" controls style="display:none" src="/sounds/sounds_ti.wav"></audio>
+        <button id="btn">;</button>
+        <audio id="audio" controls style="display:none" src="/sounds/sounds_do.wav"></audio>
+    </div>
+                
+    <script src="app.js"></script>
+</body>
+</html>
